@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccd8ee8-78e5-4b65-bf95-7bf8d85be294" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MangosteenRPCTest.java" afterDir="false" />
+    <list default="true" id="0ccd8ee8-78e5-4b65-bf95-7bf8d85be294" name="Changes" comment="feat: 增加了日志的配置">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mangosteen/rpc/client/MangosClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mangosteen/rpc/client/MangosteenClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mangosteen/rpc/client/MangosteenConnectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mangosteen/rpc/client/RpcClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mangosteen/rpc/client/exception/ClientException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,23 +38,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MangosteenRPCTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MangosteenRPCTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mangosteen.rpc.client" />
+      <recent name="mangosteen.rpc" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.MangosteenRPCTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -57,7 +69,7 @@
       <module name="mangosteen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mangosteen.rpc.*" />
+          <option name="PATTERN" value="mangosteen.rpc.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +100,8 @@
       <option name="presentableId" value="Default" />
       <updated>1718736597885</updated>
       <workItem from="1718736599228" duration="2023000" />
-      <workItem from="1719035790525" duration="2646000" />
+      <workItem from="1719035790525" duration="8390000" />
+      <workItem from="1719130058960" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -98,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719036015320</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: 增加了日志的配置">
+      <option name="closed" value="true" />
+      <created>1719038612420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038612420</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="feat: 增加了日志的配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 增加了日志的配置" />
   </component>
 </project>
